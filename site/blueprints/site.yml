@@ -1,0 +1,59 @@
+title: Site
+
+columns:
+  - width: 2/3
+        sections:
+            pages:
+                headline: Pages
+                type: pages
+                status: all
+                templates:
+                    - home
+                    - default
+                    - simple
+                    - contact
+                    - impressum
+                create:
+                    - default
+                    - simple
+            portfolio:
+                headline: Projects
+                type: pages
+                status: all
+                templates: project
+                layout: cards
+                parent: site.children.filterBy('intendedTemplate', 'projects').first
+
+  - width: 1/3
+        sections:
+            metafields:
+                type: fields
+                fields:
+                    description:
+                        extends: fields/plaineditor
+                        label: Site Description
+                    siteauthor:
+                        type: text
+                        label: Site Author Name
+                    siteauthortwitter:
+                        type: text
+                        label: Site Author Twitter Name
+                    sitefacebook:
+                        type: url
+                        label: Company Facebook Page
+                    sitetwitter:
+                        type: url
+                        label: Company Twitter Page
+                    siteinstagram:
+                        type: url
+                        label: Company Instagram Page
+                    sitelinkedin:
+                        type: url
+                        label: Company Linkedin Profile Page
+                    siteimage:
+                        type: files
+                        layout: cards
+                        multiple: false
+                        label: Site Default Image
+            pageimages:
+                extends: sections/pageimages

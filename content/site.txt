@@ -1,0 +1,35 @@
+Title: Solcare
+
+----
+
+Description: 
+
+----
+
+Siteauthor: 
+
+----
+
+Siteauthortwitter: 
+
+----
+
+Sitefacebook: 
+
+----
+
+Sitetwitter: 
+
+----
+
+Siteinstagram: 
+
+----
+
+Sitepinterest: 
+
+----
+
+Siteimage:
+
+- header-default.jpg

@@ -1,0 +1,90 @@
+.header_background {
+    @media screen and (max-width: 480px) {
+        background-image:url('/assets/images/default-header-sm.jpg');
+    }
+    @media screen and (max-width: 800px) {
+        background-image:url('/assets/images/default-header-md.jpg');
+    }
+    @media screen and (max-width: 1200px) {
+        background-image:url('/assets/images/default-header-lg.jpg');
+    }
+    @media screen and (min-width: 1201px) {
+        background-image:url('/assets/images/default-header-xl.jpg');
+    }
+
+    &#header-projekte {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/projects-header-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/projects-header-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/projects-header-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/projects-header-xl.jpg');
+        }
+    }
+
+    &#header-projektprozess {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/process-header-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/process-header-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/process-header-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/process-header-xl.jpg');
+        }
+    }
+
+    &#header-betreuung {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/betreuung-header-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/betreuung-header-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/betreuung-header-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/betreuung-header-xl.jpg');
+        }
+    }
+
+    &#header-ansprechpartner {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/contact-header-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/contact-header-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/contact-header-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/contact-header-xl.jpg');
+        }
+    }
+
+    &#header-impressum {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/impressum-header-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/impressum-header-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/impressum-header-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/impressum-header-xl.jpg');
+        }
+    }
+
+}

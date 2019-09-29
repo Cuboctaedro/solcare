@@ -1,0 +1,69 @@
+Title: Ansprechpartner
+
+----
+
+People:
+
+- 
+  name: Salvatore Cammilleri
+  position: Geschäftsführer
+  phone: +49 (0) 177 5999 229
+  email: salvatore.cammilleri@solcare.energy
+  image:
+    - salvatore.jpg
+- 
+  name: Anna Cammilleri
+  position: Geschäftsführerin
+  phone: +49 (0) 173 8802 359
+  email: anna.cammilleri@solcare.energy
+  image:
+    - anna.jpg
+- 
+  name: Salvatore Widera
+  position: Projektentwicklung
+  phone: +49 (0) 173 2364 6499
+  email: salvatore.widera@solcare.energy
+  image: [ ]
+
+----
+
+Address:
+
+Darmstädter Str. 37
+D-64646 Heppenheim
+
+----
+
+Phone: +49 (0) 62 52- 9655844
+
+----
+
+Fax: +49 (0) 62 52- 9655846
+
+----
+
+Email: info@solcare.energy
+
+----
+
+Website: www.solcare.energy
+
+----
+
+Officeimage:
+
+- offices.jpg
+
+----
+
+Headerimage:
+
+- contact-header.jpg
+
+----
+
+Coverimage: 
+
+----
+
+Description: 

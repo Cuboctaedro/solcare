@@ -1,0 +1,64 @@
+title: Project
+
+options:
+    changeTemplate: false
+
+status:
+    draft: Draft
+    unlisted: In Review
+    listed: Published
+
+columns:
+  - width: 2/3
+    sections:
+        content:
+            type: fields
+            fields:
+                galleryheader:
+                    label: Image Gallery
+                    type: headline
+                gallery:
+                    type: files
+                    layout: cards
+                contentheader:
+                    label: Project Data
+                    type: headline
+                projektart:
+                    type: text
+                    label: Projektart
+                dachgrosse:
+                    type: text
+                    label: Dachflächengröße
+                leistung:
+                    type: text
+                    label: Leistung
+                modulhersteller:
+                    type: text
+                    label: Modulhersteller
+                wechselrichter:
+                    type: text
+                    label: Wechselrichter
+                besonderes:
+                    type: text
+                    label: Besonderes
+  - width: 1/3
+    sections:
+        metadata:
+            type: fields
+            fields:
+                seo:
+                    label: SEO
+                    type: headline
+                coverimage:
+                    label: Share Image
+                    type: files
+                    layout: cards
+                    multiple: false
+                description:
+                    label: Description
+                    extends: fields/plaineditor
+                filesheader:
+                    label: Files
+                    type: headline
+        pageimages:
+            extends: sections/pageimages

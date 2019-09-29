@@ -1,0 +1,65 @@
+Title: Über Solcare
+
+----
+
+Headerimage: - header-default.jpg
+
+----
+
+Body:
+
+- 
+  title: SOLCARE GmbH
+  text: >
+    Die SOLCARE GmbH ist ein
+    inhabergeführtes Unternehmen, das sich
+    seit 2012 den erneuerbaren Energien
+    widmet. Seitdem haben wir rund 40MW
+    projektiert, entwickelt, versichert und
+    finanziert. Zu unseren Projekten zählen
+    Photovoltaikanlagen für
+    landwirtschaftliche Betriebe, kleine und
+    mittelständische Unternehmen,
+    Freiflächenanlagen sowie
+    Familienhäuser.
+  image:
+    - square-default.jpg
+- 
+  title: Vertrauen
+  text: >
+    Planung, Bau und Betrieb von
+    Photovoltaik-anlagen ist immer
+    Vertrauenssache. Dafür stehen wir mit
+    unserem guten Ruf. Sie können von uns
+    jederzeit eine reibungslose und
+    zuverlässige Planung und
+    Projektentwicklung erwarten. So
+    profitieren auch Sie von unserer
+    Erfahrung und vermeiden unnötige
+    Reibungsverluste. Wir kümmern uns um
+    alle Formalitäten, die Finanzierung,
+    Versicherung, Planung sowie den Bau und
+    die Wartung Ihrer Photovoltaikanlage.
+    Bei uns bekommen Sie alles aus einer
+    Hand. Ihr persönlicher Ansprechpartner
+    steht Ihnen dabei jederzeit zur
+    Verfügung.
+  image:
+    - square-default.jpg
+- 
+  title: Beratung
+  text: |
+    Wir beraten Sie hinblicklich der Versicherungen und Finanzierung Ihrer Photovoltaikanlage, wir planen und koordinieren den Bau und wir kümmern uns um die Wartung und sorgen für einen reibungslosen Betrieb. 
+    
+    Haben wir Ihr Interesse geweckt? Dann freuen wir uns auf Ihre Anfrage:
+    (email: info@solcare.energy text: info@solcare.energy)
+  image:
+    - square-default.jpg
+
+----
+
+Coverimage: 
+
+----
+
+Description: 

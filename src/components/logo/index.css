@@ -1,0 +1,27 @@
+.site_logo {
+    width: 280px;
+    top:24px;
+    right:24px;
+    height:0;
+    padding-top:32.5%;
+}
+@screen sm {
+    .site_logo {
+        width: 360px;
+    }
+}
+@screen md {
+    .site_logo {
+        width: 420px;
+    }
+}
+@screen lg {
+    .site_logo {
+        width: 480px;
+    }
+}
+@screen xl {
+    .site_logo {
+        width: 540px;
+    }
+}

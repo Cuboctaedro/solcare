@@ -1,0 +1,25 @@
+Title: Projektprozess
+
+----
+
+Text: Wir kümmern uns um alle Formalitäten, die Finanzierung, Versicherung, Planung sowie den Bau und die Wartung Ihrer Photovoltaikanlage. Bei uns bekommen Sie alles aus einer Hand. Ihr persönlicher Ansprechpartner steht Ihnen dabei jederzeit zur Verfügung.
+
+----
+
+Pageimage:
+
+- solcare-diagram.png
+
+----
+
+Headerimage:
+
+- prozess-header.jpg
+
+----
+
+Coverimage:
+
+----
+
+Description:

@@ -1,0 +1,55 @@
+title: Home Page
+
+options:
+    changeTemplate: false
+
+status:
+    draft: Draft
+    unlisted: Visible
+
+columns:
+  - width: 2/3
+    sections:
+        content:
+            type: fields
+            fields:
+                contentheader:
+                    label: Content
+                    type: headline
+                text:
+                    type: markdown
+                    label: Text
+                    size: medium
+                    buttons:
+                      - headlines
+                        - h3
+                        - h4
+                      - bold
+                      - italic
+                      - pagelink
+                      - link
+                      - email
+                      - ul
+                      - ol
+
+  - width: 1/3
+    sections:
+        metadata:
+            type: fields
+            fields:
+                seo:
+                    label: SEO
+                    type: headline
+                coverimage:
+                    label: Share Image
+                    type: files
+                    layout: cards
+                    multiple: false
+                description:
+                    label: Description
+                    extends: fields/plaineditor
+                filesheader:
+                    label: Files
+                    type: headline
+        pageimages:
+            extends: sections/pageimages

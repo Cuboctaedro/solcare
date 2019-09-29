@@ -1,0 +1,36 @@
+title: Project
+
+options:
+    changeTemplate: false
+
+columns:
+  - width: 2/3
+        sections:
+            drafts:
+                headline: Drafts
+                type: pages
+                status: draft
+                layout: list
+                templates: project
+            published:
+                headline: Published Projects
+                type: pages
+                status: listed
+                layout: cards
+                templates: project
+  - width: 1/3
+    sections:
+        metadata:
+            type: fields
+            label: SEO
+            fields:
+                coverimage:
+                    label: Cover Image
+                    type: files
+                    layout: cards
+                    multiple: false
+                description:
+                    label: Description
+                    extends: fields/plaineditor
+        pageimages:
+            extends: sections/pageimages

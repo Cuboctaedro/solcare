@@ -1,0 +1,16 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "components/skiplink/index.css";
+@import "components/dropdown/index.css";
+@import "components/logo/index.css";
+@import "components/header/index.css";
+
+@import "tailwindcss/utilities";
+@import "utilities/accessible-hide.css";
+@import "utilities/generated.css";
+
+@import "plugins/photoswipe/pswp.css";
+@import "plugins/photoswipe/pswp-skin.css";
+@import "plugins/simplebar/index.css";
+@import "plugins/uniform/index.css";

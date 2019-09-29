@@ -1,0 +1,26 @@
+Title: Home
+
+----
+
+Text:
+
+Photovoltaik lohnt sich!
+Egal, ob Sie den Strom ins Netz einspeisen oder ihn selber nutzen wollen, Photovoltaik ist immer eine lohnenswerte Investition. Je nach Strombedarf können Sie Lastspitzen abfedern oder einen großen Teil Ihres täglichen Stromverbrauchs durch eine eigene Anlage decken.
+
+Solcare – wenn Sie mit den erneuerbaren Energien rechnen wollen!
+
+- Planung von Photovoltaikanlagen
+- Finanzierung
+- Versicherung
+- Erledigung aller Formalia
+- Wartung und Betrieb der Anlage
+
+----
+
+Coverimage:
+
+- header-default.jpg
+
+----
+
+Description: 

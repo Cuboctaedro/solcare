@@ -1,0 +1,15 @@
+title: Image
+
+accept:
+    mime: image/jpeg, image/png, image/svg+xml
+
+fields:
+    focus:
+        label: Focus
+        type: focus
+    alt:
+        extends: fields/plaineditor
+        label: Description
+    caption:
+        extends: fields/plaineditor
+        label: Caption

@@ -1,0 +1,57 @@
+title: Impresum
+
+options:
+    changeTemplate: false
+
+status:
+    draft: Draft
+    unlisted: In Review
+    listed: Published
+
+columns:
+  - width: 1/2
+    sections:
+        content:
+            type: fields
+            fields:
+                dataheader:
+                    label: Company Data
+                    type: headline
+                data:
+                    type: markdown
+                    label: Data
+                    size: medium
+                    buttons:
+                      - headlines
+                        - h3
+                        - h4
+                      - bold
+                      - italic
+                      - pagelink
+                      - link
+                      - email
+                      - ul
+                      - ol
+  - width: 1/2
+    sections:
+        morecontent:
+            type: fields
+            fields:
+                textheader:
+                    label: Impressum
+                    type: headline
+                text:
+                    type: markdown
+                    label: Text
+                    size: medium
+                    buttons:
+                      - headlines
+                        - h3
+                        - h4
+                      - bold
+                      - italic
+                      - pagelink
+                      - link
+                      - email
+                      - ul
+                      - ol

@@ -1,0 +1,86 @@
+.has_dropdown {
+    @apply relative ;
+}
+.burger {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(246,139,31);
+    margin: 6px 0;
+    box-shadow: none;
+    transition: box-shadow .5s ease-in-out ;
+}
+button:hover .burger {
+    box-shadow: 0px 0px 5px 2px rgba(255,255,255,1);
+}
+.dropdown_menu {
+    @apply hidden;
+    &.is_open {
+        @apply block absolute w-full mx-6 shadow-xl;
+        & a {
+            @apply block w-11/12 p-4 text-center bg-solorange-500 text-white uppercase tracking-wider text-lg border-b border-solid border-solorange-100;
+            transition: background-color .5s ease-in-out ;
+            &:hover {
+                @apply bg-solorange-400 ;
+            }
+        }
+
+    }
+    top: 48px;
+    @apply absolute min-w-64 ;
+}
+@screen xl {
+    .dropdown_menu {
+        @apply flex w-full flex-row top-0 px-5 absolute;
+        &.is_open {
+            @apply flex ;
+        }
+        @apply relative ;
+        & .menuitem {
+            width: 16.666%;
+            @apply px-1 ;
+        }
+        & a {
+            @apply block  py-2 px-0 text-center text-white uppercase tracking-wide rounded-t relative border-b-0  ;
+            background: radial-gradient(circle, rgba(255,221,0,1) 0%, rgba(246,139,31,1) 100%);
+            box-shadow: none;
+            transition: box-shadow .5s ease-in-out ;
+            &:hover {
+                box-shadow: 0px 0px 8px 3px rgba(255,255,255,1);
+            }
+            &::after {
+                @apply absolute left-0 right-0 h-1 bg-transparent;
+                bottom:-8px;
+                content: "";
+                transition: background-color 1s ease-in-out ;
+            }
+            &:hover::after {
+                @apply bg-solorange-500;
+            }
+            &.is_active {
+                background: none;
+                box-shadow: 0px 0px 8px 3px rgba(255,255,255,1);
+                @apply bg-soltext ;
+                transition: box-shadow .5s ease-in-out ;
+                &:hover {
+                    box-shadow: 0px 0px 12px 4px rgba(255,255,255,1);
+                }
+                &::after {
+                    @apply absolute left-0 right-0 h-1 bg-soltext;
+                    bottom:-8px;
+                    content: "";
+                }
+            }
+
+        }
+    }
+
+}
+
+
+/*
+<nav class="has_dropdown">
+    <button class="dropdown_button" aria-expanded="false">Menu</button>
+    <ul class="dropdown_menu" id="main-menu">
+    </ul>
+</nav>
+*/
