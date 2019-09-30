@@ -13,10 +13,6 @@ Fax:	+49 (0) 62 52- 9655846
 E-mail: info@solcare.energy
 **www.solcare.energy**
 
-#### Volksbank Darmstadt
-BIC: GENODEF1VBD
-IBAN: DE16 5089 0000 0071 4021 00
-
 #### Finanzamt Bensheim
 St.-Nr.: 00524310106 · USt-Id: DE318627717
 HRB 97961 Amtsgericht Darmstadt
@@ -60,9 +56,7 @@ Bilder stammen von www.melgrafik.de
 
 ----
 
-Headerimage:
-
-- impressum-header.jpg
+Headerimage: - impressum-header.jpg
 
 ----
 

@@ -9,13 +9,12 @@ columns:
                 status: all
                 templates:
                     - home
+                    - about
                     - default
-                    - simple
                     - contact
                     - impressum
                 create:
                     - default
-                    - simple
             portfolio:
                 headline: Projects
                 type: pages

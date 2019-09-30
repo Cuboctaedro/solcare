@@ -52,13 +52,7 @@ Website: www.solcare.energy
 
 Officeimage:
 
-- offices.jpg
-
-----
-
-Headerimage:
-
-- contact-header.jpg
+- solcare-map.jpg
 
 ----
 
@@ -67,3 +61,7 @@ Coverimage:
 ----
 
 Description: 
+
+----
+
+Headerimage: - contact-header.jpg

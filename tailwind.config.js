@@ -15,6 +15,8 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      solcyan: '#4fc6e0',
+
       soltext: '#4d4d4f',
       solblue: {
           100: '#EBF5FA',

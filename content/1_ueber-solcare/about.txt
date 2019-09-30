@@ -1,0 +1,140 @@
+Title: Über Solcare
+
+----
+
+Body:
+
+- 
+  icon:
+    - icon-house.png
+  title: SOLCARE GmbH
+  text: >
+    Die SOLCARE GmbH ist ein
+    inhabergeführtes Unternehmen, das sich
+    seit 2012 den erneuerbaren Energien
+    widmet. Seitdem haben wir rund 40MW
+    projektiert, entwickelt, versichert und
+    finanziert. Zu unseren Projekten zählen
+    Photovoltaikanlagen für
+    landwirtschaftliche Betriebe, kleine und
+    mittelständische Unternehmen,
+    Freiflächenanlagen sowie
+    Familienhäuser.
+  image: [ ]
+- 
+  icon:
+    - icon-vertrauen.png
+  title: Vertrauen
+  text: >
+    Planung, Bau und Betrieb von
+    Photovoltaik-anlagen ist immer
+    Vertrauenssache. Dafür stehen wir mit
+    unserem guten Ruf. Sie können von uns
+    jederzeit eine reibungslose und
+    zuverlässige Planung und
+    Projektentwicklung erwarten. So
+    profitieren auch Sie von unserer
+    Erfahrung und vermeiden unnötige
+    Reibungsverluste. Wir kümmern uns um
+    alle Formalitäten, die Finanzierung,
+    Versicherung, Planung sowie den Bau und
+    die Wartung Ihrer Photovoltaikanlage.
+    Bei uns bekommen Sie alles aus einer
+    Hand. Ihr persönlicher Ansprechpartner
+    steht Ihnen dabei jederzeit zur
+    Verfügung.
+  image: [ ]
+- 
+  icon:
+    - icon-beratung.png
+  title: Beratung
+  text: |
+    Wir beraten Sie hinblicklich der Versicherungen und Finanzierung Ihrer Photovoltaikanlage, wir planen und koordinieren den Bau und wir kümmern uns um die Wartung und sorgen für einen reibungslosen Betrieb. 
+    
+    Haben wir Ihr Interesse geweckt? Dann freuen wir uns auf Ihre Anfrage:
+    (email: info@solcare.energy text: info@solcare.energy)
+  image: [ ]
+- 
+  icon:
+    - icon-prozess.png
+  title: Projektprozess
+  text: ""
+  image:
+    - prozessdiagram.png
+
+----
+
+Coverimage:
+
+- header-default.jpg
+
+----
+
+Description: 
+
+----
+
+Headerimage:
+
+- 
+  filename: header-default.jpg
+  dragText: '(image: header-default.jpg)'
+  icon:
+    type: file-image
+    ratio: 3/2
+    back: pattern
+    color: '#de935f'
+    cover: false
+    url: >
+      http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default-352x.jpg
+        352w,
+        http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default-864x.jpg
+        864w,
+        http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default-38x38.jpg
+        1x,
+        http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default-76x76.jpg
+        2x
+  id: ueber-solcare/header-default.jpg
+  image:
+    ratio: 3/2
+    back: pattern
+    cover: false
+    url: >
+      http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default-352x.jpg
+        352w,
+        http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default-864x.jpg
+        864w,
+        http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default-38x38.jpg
+        1x,
+        http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default-76x76.jpg
+        2x
+  info: ""
+  link: >
+    /pages/ueber-solcare/files/header-default.jpg
+  text: header-default.jpg
+  type: image
+  url: >
+    http://solcare.test/media/pages/ueber-solcare/3412247369-1569502570/header-default.jpg
+  uuid: header-default.jpg

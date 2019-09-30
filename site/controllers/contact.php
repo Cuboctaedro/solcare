@@ -26,8 +26,11 @@ return function ($kirby) {
 
     if ($kirby->request()->is('POST')) {
         $form->emailAction([
-            'to' => 'me@example.com',
-            'from' => 'info@example.com',
+            'from' => 'welcome@supercompany.com',
+            'to' => 'someone@gmail.com',
+            'subject' => '{{name}}  - Website Form',
+            'template' => 'contact',
+
         ]);
     }
 

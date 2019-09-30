@@ -38,7 +38,9 @@
 
             <section class="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
                 <div class="mb-6">
-                    <?php snippet('images/square', ['pic' => $page->officeimage()->toFile()]); ?>
+                    <a href="https://www.google.com/maps/place/Darmst%C3%A4dter+Str.+37,+64646+Heppenheim+(Bergstra%C3%9Fe),+Germany/@49.6463005,8.6378123,17z/data=!3m1!4b1!4m5!3m4!1s0x4797d9d0680a5841:0x3f0beb51a238989c!8m2!3d49.6463005!4d8.640001" target="_blank" title="Google Map">
+                        <?php snippet('images/square', ['pic' => $page->officeimage()->toFile()]); ?>
+                    </a>
                 </div>
                 <h3 class="font-bold text-lg text-solblue-500 mb-2">SOLCARE GmbH</h3>
                 <div class="font-normal mb-6">
@@ -151,7 +153,7 @@
                         <input
                             type="submit"
                             value="Senden"
-                            class=" inline-block cursor-pointer px-4 py-1 uppercase tracking-wider text-sm bg-solorange-500 text-white hover:bg-solorange-600 shadow-md hover:shadow-xl"
+                            class=" inline-block cursor-pointer px-4 py-1 uppercase tracking-wider text-sm bg-solcyan text-white hover:bg-solblue-500 shadow-md hover:shadow-xl"
                         >
                     </div>
                 </div>

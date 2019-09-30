@@ -30,9 +30,9 @@ button:hover .burger {
 }
 @screen xl {
     .dropdown_menu {
-        @apply flex w-full flex-row top-0 px-5 absolute;
+        @apply flex w-full flex-row top-0 px-5 absolute justify-between;
         &.is_open {
-            @apply flex ;
+            @apply flex  ;
         }
         @apply relative ;
         & .menuitem {
@@ -40,7 +40,15 @@ button:hover .burger {
             @apply px-1 ;
         }
         & a {
-            @apply block  py-2 px-0 text-center text-white uppercase tracking-wide rounded-t relative border-b-0  ;
+            @apply block py-2 px-0 text-center text-white uppercase tracking-wide rounded-t relative border-b-0 bg-solcyan ;
+            box-shadow: none;
+            transition: background-color .5s ease-in-out, box-shadow .5s ease-in-out ;
+            &:hover {
+                @apply bg-solblue-300;
+                box-shadow: 0px 0px 8px 3px rgba(255,255,255,1);
+            }
+        }
+        & .is_active {
             background: radial-gradient(circle, rgba(255,221,0,1) 0%, rgba(246,139,31,1) 100%);
             box-shadow: none;
             transition: box-shadow .5s ease-in-out ;
@@ -55,20 +63,6 @@ button:hover .burger {
             }
             &:hover::after {
                 @apply bg-solorange-500;
-            }
-            &.is_active {
-                background: none;
-                box-shadow: 0px 0px 8px 3px rgba(255,255,255,1);
-                @apply bg-soltext ;
-                transition: box-shadow .5s ease-in-out ;
-                &:hover {
-                    box-shadow: 0px 0px 12px 4px rgba(255,255,255,1);
-                }
-                &::after {
-                    @apply absolute left-0 right-0 h-1 bg-soltext;
-                    bottom:-8px;
-                    content: "";
-                }
             }
 
         }

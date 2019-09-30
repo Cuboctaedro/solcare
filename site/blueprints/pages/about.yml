@@ -1,4 +1,4 @@
-title: Default Page
+title: About Page
 
 options:
     changeTemplate: false
@@ -23,6 +23,11 @@ columns:
                     min: 3
                     max: 4
                     fields:
+                        icon:
+                            label: Icon
+                            type: files
+                            layout: cards
+                            multiple: false
                         title:
                             type: text
                             label: Title

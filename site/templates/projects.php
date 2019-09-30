@@ -7,7 +7,7 @@
     <div class="">
         <?php foreach($page->children()->listed() as $project): ?>
             <article class="w-full flex flex-row flex-wrap">
-                <section class="w-full lg:w-1/2 px-3 mb-6">
+                <section class="w-full lg:w-1/2 lg:order-2 px-3 mb-6">
                     <h2 class="font-bold text-solblue-500 text-lg mb-3"><?= $project->title() ?></h2>
                     <div class="border-b border-solid border-solblue-300 bg-solblue-100 flex flex-row flex-wrap leading-relaxed text-sm">
                         <span class="w-full md:w-1/3 font-bold px-2 ">Projektart</span>
@@ -34,7 +34,7 @@
                         <span class="w-full md:w-2/3 px-2"><?= $project->besonderes() ?></span>
                     </div>
                 </section>
-                <section class="w-full lg:w-1/2 mb-6 overflow-x-auto" data-simplebar>
+                <section class="w-full lg:w-1/2 lg:order-1 mb-6 overflow-x-auto" data-simplebar>
                     <div class="flex flex-no-wrap swipe_gallery" itemscope itemtype="http://schema.org/ImageGallery">
                         <?php foreach($project->gallery()->toFiles() as $picture):?>
                             <?php if($picture->width() > $picture->height()): ?>

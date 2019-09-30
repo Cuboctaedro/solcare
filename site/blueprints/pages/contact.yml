@@ -59,7 +59,7 @@ columns:
                     label: Website
                     type: text
                 officeimage:
-                    label: Office Image
+                    label: Map
                     type: files
                     layout: cards
                     multiple: false

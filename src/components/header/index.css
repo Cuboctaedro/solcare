@@ -87,4 +87,19 @@
         }
     }
 
+    &#header-home {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/home-header-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/home-header-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/home-header-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/home-header-xl.jpg');
+        }
+    }
+
 }
