@@ -14,3 +14,11 @@
 @import "plugins/photoswipe/pswp-skin.css";
 @import "plugins/simplebar/index.css";
 @import "plugins/uniform/index.css";
+
+#main {
+    padding-top: 3rem;
+    background: linear-gradient(180deg, rgba(255,223,155,1) 0%, rgba(255,255,255,1) 50%, rgba(255,223,155,1) 100%);
+}
+.projekte#main {
+    background: linear-gradient(0deg, rgba(255,223,155,1) 0%, rgba(255,255,255,1) 100%);
+}

@@ -1,6 +1,6 @@
 <?php snippet('header'); ?>
 
-<article class="container mx-auto bg-white">
+<article class="container mx-auto">
 
     <header class="hide"><h1><?= $page->title() ?></h1></header>
 
@@ -14,7 +14,7 @@
 
             <?php foreach($page->people()->toStructure() as $person): ?>
 
-                <section class="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
+                <section class="w-full md:w-1/2 xl:w-1/4 px-3 mb-6">
                     <div class="mb-6">
                         <?php if($person->image()->isNotEmpty()):?>
                             <?php snippet('images/square', ['pic' => $person->image()->toFile()]); ?>
@@ -36,7 +36,7 @@
 
             <?php endforeach; ?>
 
-            <section class="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
+            <section class="w-full md:w-1/2 xl:w-1/4 px-3 mb-6">
                 <div class="mb-6">
                     <a href="https://www.google.com/maps/place/Darmst%C3%A4dter+Str.+37,+64646+Heppenheim+(Bergstra%C3%9Fe),+Germany/@49.6463005,8.6378123,17z/data=!3m1!4b1!4m5!3m4!1s0x4797d9d0680a5841:0x3f0beb51a238989c!8m2!3d49.6463005!4d8.640001" target="_blank" title="Google Map">
                         <?php snippet('images/square', ['pic' => $page->officeimage()->toFile()]); ?>

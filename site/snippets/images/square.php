@@ -14,13 +14,13 @@
             'crop'   => true
         ])->url() ?>"
         media="(max-width: 887px)" />
-    <source
+    <!-- <source
         data-srcset="<?= $pic->thumb([
             'width'  => 264,
             'height' => 264,
             'crop'   => true
         ])->url() ?>"
-        media="(max-width: 1175px)" />
+        media="(max-width: 1175px)" /> -->
     <source
         data-srcset="<?= $pic->thumb([
             'width'  => 360,

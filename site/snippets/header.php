@@ -31,12 +31,15 @@
             <h2 class="uppercase tracking-wide ">Solcare</h2>
             <h3 class="">Lassen Sie Ihr Dach für Sie arbeiten!</h3>
         </a>
+        <div class="absolute bottom-0 inset-x-0 z-40 homemenu">
+            <?php snippet('menu'); ?>
+        </div>
     </header>
 
-    <main id="main" class="relative z-10 pb-24 pt-12" style="background-image: linear-gradient(to bottom, rgb(255,255,255), rgb(255,223,155));">
+    <main id="main" class="relative z-10 pb-24 pt-12">
 
 <?php else: ?>
-    <header class=" w-full h-80 relative z-20 mb-6 shadow-lg" id="header" >
+    <header class=" w-full h-80 relative z-20 shadow-lg" id="header" >
         <div class="header_background absolute inset-0 bg-cover bg-top z-10" id="header-<?= $page->slug() ?>"></div>
         <div class="header_gradient absolute inset-x-0 top-0 h-40 z-20" style="background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.5));"></div>
         <div class="site_logo absolute z-30">
@@ -44,10 +47,10 @@
                 <span class="hide"><?= $site->title() ?></span>
             </a>
         </div>
-        <div class="absolute bottom-0 inset-x-0 z-40">
+        <div class="absolute bottom-0 inset-x-0 z-40 pagemenu">
             <?php snippet('menu'); ?>
         </div>
     </header>
 
-    <main id="main" class="relative z-10 pb-24">
+    <main id="main" class="relative z-10 pb-24 <?= $page->slug() ?>">
 <?php endif;?>

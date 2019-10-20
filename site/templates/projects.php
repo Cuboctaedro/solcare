@@ -1,6 +1,6 @@
 <?php snippet('header'); ?>
 
-<article class="container mx-auto px-3 bg-white pb-6">
+<article class="container mx-auto px-3 pb-6">
     <header class="w-full px-3 mb-6">
         <h1 class="font-bold uppercase tracking-wide text-solblue-500 text-xl border-b border-solid border-solblue-300 w-full"><?= $page->title() ?></h1>
     </header>
@@ -13,7 +13,7 @@
                         <span class="w-full md:w-1/3 font-bold px-2 ">Projektart</span>
                         <span class="w-full md:w-2/3 px-2"><?= $project->projektart() ?></span>
                     </div>
-                    <div class="border-b border-solid border-solblue-300 bg-white flex flex-row flex-wrap leading-relaxed text-sm">
+                    <div class="border-b border-solid border-solblue-300 bg-transparent flex flex-row flex-wrap leading-relaxed text-sm">
                         <span class="w-full md:w-1/3 font-bold px-2">Dachflächengröße</span>
                         <span class="w-full md:w-2/3 px-2"><?= $project->dachgrosse() ?></span>
                     </div>
@@ -21,7 +21,7 @@
                         <span class="w-full md:w-1/3 font-bold px-2">Leistung</span>
                         <span class="w-full md:w-2/3 px-2"><?= $project->leistung() ?></span>
                     </div>
-                    <div class="border-b border-solid border-solblue-300 flex flex-row flex-wrap">
+                    <div class="border-b border-solid border-solblue-300 bg-transparent flex flex-row flex-wrap leading-relaxed text-sm">
                         <span class="w-full md:w-1/3 font-bold px-2">Modulhersteller</span>
                         <span class="w-full md:w-2/3 px-2"><?= $project->modulhersteller() ?></span>
                     </div>
@@ -29,7 +29,7 @@
                         <span class="w-full md:w-1/3 font-bold px-2">Wechselrichter</span>
                         <span class="w-full md:w-2/3 px-2"><?= $project->wechselrichter() ?></span>
                     </div>
-                    <div class="border-b border-solid border-solblue-300 flex flex-row flex-wrap leading-relaxed text-sm">
+                    <div class="border-b border-solid border-solblue-300 bg-transparent flex flex-row flex-wrap leading-relaxed text-sm">
                         <span class="w-full md:w-1/3 font-bold px-2">Besonderes</span>
                         <span class="w-full md:w-2/3 px-2"><?= $project->besonderes() ?></span>
                     </div>

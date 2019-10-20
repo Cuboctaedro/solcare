@@ -1,6 +1,6 @@
 <?php snippet('header'); ?>
 
-<article class="container mx-auto px-3 bg-white ">
+<article class="container mx-auto px-3">
     <header class="hidden"><h1><?= $page->title() ?></h1></header>
 
     <div class="flex flex-row flex-wrap items-stretch">

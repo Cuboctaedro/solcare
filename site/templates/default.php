@@ -1,6 +1,6 @@
 <?php snippet('header'); ?>
 
-<article class="container mx-auto px-3 bg-white ">
+<article class="container mx-auto px-3 ">
     <header class="w-full px-3 mb-6">
         <h1 class="font-bold uppercase tracking-wide text-solblue-500 text-xl border-b border-solid border-solblue-300 w-full"><?= $page->title() ?></h1>
     </header>

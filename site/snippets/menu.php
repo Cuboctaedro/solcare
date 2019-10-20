@@ -4,7 +4,7 @@ if($items->isNotEmpty()):
 ?>
 
 <nav id="nav" class="has_dropdown container mx-auto">
-    <button class="dropdown_button xl:hidden ml-6 mb-6 w-8 h-8" aria-expanded="false">
+    <button class="dropdown_button  ml-6 mb-6 w-8 h-8" aria-expanded="false">
         <span class="hide">Menu</span>
         <div class="burger"></div>
         <div class="burger"></div>

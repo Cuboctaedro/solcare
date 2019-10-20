@@ -9,15 +9,18 @@
     box-shadow: none;
     transition: box-shadow .5s ease-in-out ;
 }
+
 button:hover .burger {
     box-shadow: 0px 0px 5px 2px rgba(255,255,255,1);
 }
+
 .dropdown_menu {
     @apply hidden;
     &.is_open {
-        @apply block absolute w-full mx-6 shadow-xl;
+        @apply block absolute mx-6 shadow-xl;
+        width: 90%;
         & a {
-            @apply block w-11/12 p-4 text-center bg-solorange-500 text-white uppercase tracking-wider text-lg border-b border-solid border-solorange-100;
+            @apply block w-full p-4 text-center bg-solorange-500 text-white uppercase tracking-wider text-lg border-b border-solid border-solorange-100;
             transition: background-color .5s ease-in-out ;
             &:hover {
                 @apply bg-solorange-400 ;
@@ -29,14 +32,17 @@ button:hover .burger {
     @apply absolute min-w-64 ;
 }
 @screen xl {
-    .dropdown_menu {
+    .pagemenu .dropdown_button {
+        display: none;
+    }
+    .pagemenu .dropdown_menu {
         @apply flex w-full flex-row top-0 px-5 absolute justify-between;
         &.is_open {
             @apply flex  ;
         }
         @apply relative ;
         & .menuitem {
-            width: 16.666%;
+            width: 19%;
             @apply px-1 ;
         }
         & a {
