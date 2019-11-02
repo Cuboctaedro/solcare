@@ -114,25 +114,6 @@
             background-image:url('/assets/images/contact-header-xl.jpg');
         }
     }
-
-
-    &#header-projektprozess {
-        @media screen and (max-width: 480px) {
-            background-image:url('/assets/images/process-header-sm.jpg');
-        }
-        @media screen and (max-width: 800px) {
-            background-image:url('/assets/images/process-header-md.jpg');
-        }
-        @media screen and (max-width: 1200px) {
-            background-image:url('/assets/images/process-header-lg.jpg');
-        }
-        @media screen and (min-width: 1201px) {
-            background-image:url('/assets/images/process-header-xl.jpg');
-        }
-    }
-
-
-
     &.header-impressum {
         @media screen and (max-width: 480px) {
             background-image:url('/assets/images/impressum-header-sm.jpg');

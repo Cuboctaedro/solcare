@@ -17,7 +17,7 @@ mix
     ])
     .purgeCss({
         folders: ['site/templates', 'site/snippets'],
-        whitelist: ['uniform__potty', 'honeypot-field', 'is_open', ],
+        whitelist: ['uniform__potty', 'honeypot-field', 'is_open', 'header-ueber-solcare', 'header-projekte', 'header-betreuung', 'header-ansprechpartner', 'header-impressum'],
         whitelistPatterns: [/^pswp/, /^simplebar/]
     })
 
