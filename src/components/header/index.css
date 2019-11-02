@@ -12,7 +12,65 @@
         background-image:url('/assets/images/default-header-xl.jpg');
     }
 
-    &#header-projekte {
+    &.header-home-1 {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/slider-1-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/slider-1-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/slider-1-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/slider-1-xl.jpg');
+        }
+    }
+    &.header-home-2 {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/slider-2-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/slider-2-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/slider-2-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/slider-2-xl.jpg');
+        }
+    }
+    &.header-home-3 {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/slider-3-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/slider-3-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/slider-3-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/slider-3-xl.jpg');
+        }
+    }
+
+    &.header-ueber-solcare {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/ueber-header-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/ueber-header-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/ueber-header-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/ueber-header-xl.jpg');
+        }
+    }
+
+    &.header-projekte {
         @media screen and (max-width: 480px) {
             background-image:url('/assets/images/projects-header-sm.jpg');
         }
@@ -26,6 +84,37 @@
             background-image:url('/assets/images/projects-header-xl.jpg');
         }
     }
+
+    &.header-betreuung {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/betreuung-header-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/betreuung-header-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/betreuung-header-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/betreuung-header-xl.jpg');
+        }
+    }
+
+    &.header-ansprechpartner {
+        @media screen and (max-width: 480px) {
+            background-image:url('/assets/images/contact-header-sm.jpg');
+        }
+        @media screen and (max-width: 800px) {
+            background-image:url('/assets/images/contact-header-md.jpg');
+        }
+        @media screen and (max-width: 1200px) {
+            background-image:url('/assets/images/contact-header-lg.jpg');
+        }
+        @media screen and (min-width: 1201px) {
+            background-image:url('/assets/images/contact-header-xl.jpg');
+        }
+    }
+
 
     &#header-projektprozess {
         @media screen and (max-width: 480px) {
@@ -42,37 +131,9 @@
         }
     }
 
-    &#header-betreuung {
-        @media screen and (max-width: 480px) {
-            background-image:url('/assets/images/betreuung-header-sm.jpg');
-        }
-        @media screen and (max-width: 800px) {
-            background-image:url('/assets/images/betreuung-header-md.jpg');
-        }
-        @media screen and (max-width: 1200px) {
-            background-image:url('/assets/images/betreuung-header-lg.jpg');
-        }
-        @media screen and (min-width: 1201px) {
-            background-image:url('/assets/images/betreuung-header-xl.jpg');
-        }
-    }
 
-    &#header-ansprechpartner {
-        @media screen and (max-width: 480px) {
-            background-image:url('/assets/images/contact-header-sm.jpg');
-        }
-        @media screen and (max-width: 800px) {
-            background-image:url('/assets/images/contact-header-md.jpg');
-        }
-        @media screen and (max-width: 1200px) {
-            background-image:url('/assets/images/contact-header-lg.jpg');
-        }
-        @media screen and (min-width: 1201px) {
-            background-image:url('/assets/images/contact-header-xl.jpg');
-        }
-    }
 
-    &#header-impressum {
+    &.header-impressum {
         @media screen and (max-width: 480px) {
             background-image:url('/assets/images/impressum-header-sm.jpg');
         }
@@ -86,20 +147,32 @@
             background-image:url('/assets/images/impressum-header-xl.jpg');
         }
     }
+}
 
-    &#header-home {
-        @media screen and (max-width: 480px) {
-            background-image:url('/assets/images/home-header-sm.jpg');
-        }
-        @media screen and (max-width: 800px) {
-            background-image:url('/assets/images/home-header-md.jpg');
-        }
-        @media screen and (max-width: 1200px) {
-            background-image:url('/assets/images/home-header-lg.jpg');
-        }
-        @media screen and (min-width: 1201px) {
-            background-image:url('/assets/images/home-header-xl.jpg');
-        }
-    }
-
+.header-home-1 {
+    animation: fade 12000ms infinite;
+}
+.header-home-2 {
+    animation: fade2 12000ms infinite;
+}
+.header-home-3 {
+    animation: fade3 12000ms infinite;
+}
+@keyframes fade {
+    0%   {opacity:1}
+    33% { opacity: 0}
+    66% { opacity: 0}
+    100% { opacity: 1}
+}
+@keyframes fade2 {
+  0%   {opacity:0}
+  33% { opacity: 1}
+  66% { opacity: 0}
+ 100% { opacity: 0}
+}
+@keyframes fade3 {
+    0%   {opacity:0}
+    33% { opacity: 0}
+    66% { opacity: 1 }
+   100% { opacity: 0}
 }

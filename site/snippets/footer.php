@@ -8,7 +8,7 @@
 <?php endif; ?>
 
 <?= mix('/main.js') ?>
-<?php if($page->intendedTemplate() == 'projects') {
+<?php if($page->intendedTemplate() == 'projects' || $page->intendedTemplate() == 'about') {
     snippet('photoswipe');
 };
 ?>

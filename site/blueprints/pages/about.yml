@@ -60,7 +60,7 @@ columns:
                     label: SEO
                     type: headline
                 coverimage:
-                    label: Share Image
+                    label: Cover Image
                     type: files
                     layout: cards
                     multiple: false

@@ -20,7 +20,11 @@
 
 <?php if($page->isHomePage()):?>
     <header class=" w-full relative z-20 shadow-xl" id="header" style="height:600px;">
-        <div class="header_background absolute inset-0 bg-cover bg-top z-10 " id="header-home"></div>
+
+        <div class="header_background absolute inset-0 bg-cover bg-top z-10 header-home-1" ></div>
+        <div class="header_background absolute inset-0 bg-cover bg-top z-10 header-home-2" ></div>
+        <div class="header_background absolute inset-0 bg-cover bg-top z-10 header-home-3" ></div>
+
         <div class="header_gradient absolute inset-x-0 top-0 h-40 z-20" style="background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.5));"></div>
         <div class="site_logo absolute z-30">
             <h1 class="absolute inset-0 bg-contain bg-no-repeat logo" style="background-image:url('<?= asset('assets/images/solcare-logo-large.png')->url() ?>');">
@@ -31,7 +35,7 @@
             <h2 class="uppercase tracking-wide ">Solcare</h2>
             <h3 class="">Lassen Sie Ihr Dach für Sie arbeiten!</h3>
         </a>
-        <div class="absolute bottom-0 inset-x-0 z-40 homemenu">
+        <div class="absolute top-0 inset-x-0 z-40 homemenu pt-32 sm:pt-6">
             <?php snippet('menu'); ?>
         </div>
     </header>
@@ -40,7 +44,7 @@
 
 <?php else: ?>
     <header class=" w-full h-80 relative z-20 shadow-lg" id="header" >
-        <div class="header_background absolute inset-0 bg-cover bg-top z-10" id="header-<?= $page->slug() ?>"></div>
+        <div class="header_background absolute inset-0 bg-cover bg-top z-10 header-<?= $page->slug() ?>" ></div>
         <div class="header_gradient absolute inset-x-0 top-0 h-40 z-20" style="background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.5));"></div>
         <div class="site_logo absolute z-30">
             <a href="<?= $site->url() ?>" class="absolute inset-0 bg-contain bg-no-repeat logo" style="background-image:url('<?= asset('assets/images/solcare-logo-large.png')->url() ?>');">

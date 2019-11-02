@@ -17,10 +17,15 @@
                     <?= $block->text()->kt() ?>
                 </div>
                 <?php endif; ?>
-                <?php if($block->image()->isNotEmpty()) {
-                    snippet('images/sm', ['pic' => $block->image()->toFile()]);
-                } ?>
-
+                <?php if($picture = $block->image()->toFile()):?>
+                    <div class="swipe_gallery">
+                        <figure>
+                            <a href="<?= $picture->url(); ?>" itemprop="contentUrl" data-size="<?= $picture->width()?>x<?= $picture->height()?>">
+                                <img src="<?= $picture->thumb(['width'=> 432, 'height'=> 704, 'crop'=> true ])->url(); ?>" alt="<?= $picture->alt() ?>" class="block w-full"/>
+                            </a>
+                        </figure>
+                    </div>
+                <?php endif; ?>
             </section>
         <?php endforeach; ?>
     </div>

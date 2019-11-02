@@ -17,10 +17,16 @@ Solcare – wenn Sie mit den erneuerbaren Energien rechnen wollen!
 
 ----
 
-Coverimage:
+Coverimages:
 
-- header-default.jpg
+- slider-1-claim.jpg
+- slider-2-dach.jpg
+- slider-3.jpg
 
 ----
 
 Description: 
+
+----
+
+Coverimage: - header-default.jpg

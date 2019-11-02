@@ -24,7 +24,8 @@
         "k-community/markdown-field": "^1.0",
         "mzur/kirby-uniform": "4.0",
         "omz13/kirby3-xmlsitemap": "^1.2",
-        "flokosiol/focus": "^3.0"
+        "flokosiol/focus": "^3.0",
+        "bnomei/kirby3-dotenv": "^1.2"
     },
     "config": {
         "optimize-autoloader": true

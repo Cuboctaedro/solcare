@@ -40,11 +40,12 @@ columns:
                 seo:
                     label: SEO
                     type: headline
-                coverimage:
-                    label: Share Image
+                coverimages:
+                    label: Cover Images
                     type: files
                     layout: cards
-                    multiple: false
+                    multiple: true
+                    max: 3
                 description:
                     label: Description
                     extends: fields/plaineditor

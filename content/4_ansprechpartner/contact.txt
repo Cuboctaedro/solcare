@@ -23,7 +23,8 @@ People:
   position: Projektentwicklung
   phone: +49 (0) 173 2364 6499
   email: salvatore.widera@solcare.energy
-  image: [ ]
+  image:
+    - widera.jpg
 
 ----
 
@@ -52,11 +53,13 @@ Website: www.solcare.energy
 
 Officeimage:
 
-- solcare-map.jpg
+- heppenheim.jpg
 
 ----
 
-Coverimage: 
+Coverimage:
+
+- heppenheim.jpg
 
 ----
 

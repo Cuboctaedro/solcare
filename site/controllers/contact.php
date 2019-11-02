@@ -25,13 +25,10 @@ return function ($kirby) {
     ]);
 
     if ($kirby->request()->is('POST')) {
-        $form->emailAction([
-            'from' => 'welcome@supercompany.com',
-            'to' => 'someone@gmail.com',
-            'subject' => '{{name}}  - Website Form',
-            'template' => 'contact',
-
-        ]);
+        if ($kirby->request()->is('POST')) {
+            $form->honeypotGuard()
+            ->MailContactAction();
+        }
     }
 
     return compact('form');
